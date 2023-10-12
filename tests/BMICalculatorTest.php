@@ -55,6 +55,12 @@ class BMICalculatorTest extends TestCase {
         $BMICalculator->height = 1.6; // m
         $result = $BMICalculator->calculate();
         $this->assertEquals($expected, $result);
+
+        /**
+         * Here we simply compare two strings. 
+         * BASEURL is a php constant created by us.
+         */
+        $this->assertEquals(BASEURL, 'http://localhost:8000');
     }
 }
 

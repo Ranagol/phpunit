@@ -14,6 +14,9 @@ class BMICalculator {
      */
     public function calculate()
     {
+        if ($this->mass <= 0 || $this->height <= 0) {
+            throw new WrongBmiDataException('Our custom error message');
+        }
         return round ( $this->mass / pow($this->height,2), 1 );
     }
 
