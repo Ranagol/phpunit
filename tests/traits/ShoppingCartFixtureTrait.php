@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Creates a Shopping Cart object before every testing method, destroy Shopping cart after every 
+ * testing method.
+ */
 trait ShoppingCartFixtureTrait {
 
     protected $cart;

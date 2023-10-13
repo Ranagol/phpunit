@@ -18,13 +18,22 @@
 
     <!--  -->
     <testsuites>
+
         <testsuite name="default">
             <directory>tests</directory>
         </testsuite>
-        <!-- .\vendor\bin\phpunit /-/-testsuite BMI -->
+
+        <!-- .\vendor\bin\phpunit /-/-testsuite BMI. Here we want to call this class for testing. -->
         <testsuite name="BMI">
             <directory>tests/BMICalculatorTest.php</directory>
         </testsuite>
+
+        <!--  .\vendor\bin\phpunit /-/-testsuite Fixtures. Here we want to call all in this dir.-->
+        <testsuite name="Fixtures">
+            <directory>tests/fixtures</directory>
+        </testsuite>
+
+        
     </testsuites>
 
     <!-- Here we can define our php constants -->
