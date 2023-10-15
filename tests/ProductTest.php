@@ -1,22 +1,42 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
-class EmailTest extends  TestCase {
-
+class ProductTest extends TestCase {
 
     public function testProduct()
     {
         // $product = new Product(new Session);
-        $session = new class implements SessionInterface {
+
+        /**
+         * Here we create an anonym. class, that implement the SessionInterface. The open na close 
+         * functions are defined here... though they are not doing anything. So, we are NOT using
+         * the real Session class. Instead, we use a fake mock anonym class.
+         */
+        $mockedSession = new class implements SessionInterface {
             public function open() {}
             public function close() {}
+
             public function write($product)
             {
-                echo 'mocked writing to the session '. $product;
+                /**
+                 * If we see this in the terminal, that means that we used our mockedSession
+                 * during testing, which is good. Bad would have been if we would have used the real
+                 * session. Using a real session during testing will slow down the testing.
+                 */
+                echo 'mocked writing to the mockedSession '. $product;
             }
         };
-        $product = new Product($session);
-        $this->assertSame('product 1',$product->fetchProductById(1));
+
+        $product = new Product($mockedSession);
+
+        $product->setLoggerCallable(function(){
+            echo 'Real Logger was not called!';
+        });
+
+        /**
+         * This is our actual testing.
+         */
+        $this->assertSame('product 1', $product->fetchProductById(1));
     }
 
 }
