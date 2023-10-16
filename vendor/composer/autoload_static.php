@@ -32,8 +32,10 @@ class ComposerStaticInit74c1f74268c4a909c88a67b1456c2c5e
     public static $classMap = array (
         'BMICalculator' => __DIR__ . '/../..' . '/src/BMICalculator.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'CustomAssertionTrait' => __DIR__ . '/../..' . '/tests/traits/CustomAssertionTrait.php',
         'Database' => __DIR__ . '/../..' . '/src/User.php',
         'DatabaseTrait' => __DIR__ . '/../..' . '/tests/traits/DatabaseTrait.php',
+        'Logger' => __DIR__ . '/../..' . '/src/Logger.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
         'PHPUnit\\Framework\\AssertionFailedError' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/AssertionFailedError.php',

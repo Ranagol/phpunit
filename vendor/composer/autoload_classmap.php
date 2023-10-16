@@ -8,8 +8,10 @@ $baseDir = dirname($vendorDir);
 return array(
     'BMICalculator' => $baseDir . '/src/BMICalculator.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'CustomAssertionTrait' => $baseDir . '/tests/traits/CustomAssertionTrait.php',
     'Database' => $baseDir . '/src/User.php',
     'DatabaseTrait' => $baseDir . '/tests/traits/DatabaseTrait.php',
+    'Logger' => $baseDir . '/src/Logger.php',
     'PHPUnit\\Exception' => $vendorDir . '/phpunit/phpunit/src/Exception.php',
     'PHPUnit\\Framework\\Assert' => $vendorDir . '/phpunit/phpunit/src/Framework/Assert.php',
     'PHPUnit\\Framework\\AssertionFailedError' => $vendorDir . '/phpunit/phpunit/src/Framework/Exception/AssertionFailedError.php',

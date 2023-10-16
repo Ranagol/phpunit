@@ -7,6 +7,6 @@ class Logger {
      */
     public static function log($data)
     {
-        echo $data.' logged!';
+        echo $data.' logged, logger triggered!' . PHP_EOL;
     }
 }
