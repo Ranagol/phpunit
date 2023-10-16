@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'BMICalculator' => $baseDir . '/src/BMICalculator.php',
+    'Calculator' => $baseDir . '/src/Calculator.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'CustomAssertionTrait' => $baseDir . '/tests/traits/CustomAssertionTrait.php',
     'Database' => $baseDir . '/src/User.php',

@@ -31,6 +31,7 @@ class ComposerStaticInit74c1f74268c4a909c88a67b1456c2c5e
 
     public static $classMap = array (
         'BMICalculator' => __DIR__ . '/../..' . '/src/BMICalculator.php',
+        'Calculator' => __DIR__ . '/../..' . '/src/Calculator.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'CustomAssertionTrait' => __DIR__ . '/../..' . '/tests/traits/CustomAssertionTrait.php',
         'Database' => __DIR__ . '/../..' . '/src/User.php',
