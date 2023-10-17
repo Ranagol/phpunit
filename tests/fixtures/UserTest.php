@@ -79,7 +79,7 @@ class UserTest extends TestCase {
     //     };
 
     //     $setUserClosure = function() use ($mockedDb){
-    //         $this->db = $mockedDb;//TODO where is this  $this->db??
+    //         $this->db = $mockedDb;
     //     };
 
     //     $executeSetUserClosure = $setUserClosure->bindTo($user, get_class($user));
