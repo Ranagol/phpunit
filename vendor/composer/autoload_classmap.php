@@ -606,4 +606,5 @@ return array(
     'TheSeer\\Tokenizer\\XMLSerializer' => $vendorDir . '/theseer/tokenizer/src/XMLSerializer.php',
     'User' => $baseDir . '/src/User.php',
     'WrongBmiDataException' => $baseDir . '/src/exceptions/WrongBmiDataException.php',
+    'forStubMockTesting\\User' => $baseDir . '/src/forStubMockTesting/User.php',
 );
