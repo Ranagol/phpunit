@@ -34,6 +34,7 @@ class ComposerStaticInit74c1f74268c4a909c88a67b1456c2c5e
         'Calculator' => __DIR__ . '/../..' . '/src/Calculator.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'CustomAssertionTrait' => __DIR__ . '/../..' . '/tests/traits/CustomAssertionTrait.php',
+        'CustomSearchEngine' => __DIR__ . '/../..' . '/src/CustomSearchEngine.php',
         'Database' => __DIR__ . '/../..' . '/src/User.php',
         'DatabaseTrait' => __DIR__ . '/../..' . '/tests/traits/DatabaseTrait.php',
         'Logger' => __DIR__ . '/../..' . '/src/Logger.php',
@@ -619,6 +620,7 @@ class ComposerStaticInit74c1f74268c4a909c88a67b1456c2c5e
         'SessionInterface' => __DIR__ . '/../..' . '/src/SessionInterface.php',
         'ShopingCart' => __DIR__ . '/../..' . '/src/ShopingCart.php',
         'ShoppingCartFixtureTrait' => __DIR__ . '/../..' . '/tests/traits/ShoppingCartFixtureTrait.php',
+        'Src\\Task2\\QuoteStorage' => __DIR__ . '/../..' . '/src/task2/QuoteStorage.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',
         'TheSeer\\Tokenizer\\NamespaceUri' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUri.php',
@@ -636,6 +638,7 @@ class ComposerStaticInit74c1f74268c4a909c88a67b1456c2c5e
         'forTestingAbstractClassesAndTraits\\Employee' => __DIR__ . '/../..' . '/src/forTestingAbstractClassesAndTraits/Employee.php',
         'forTestingAbstractClassesAndTraits\\MyTrait' => __DIR__ . '/../..' . '/src/forTestingAbstractClassesAndTraits/MyTrait.php',
         'forTestingAbstractClassesAndTraits\\PersonAbstract' => __DIR__ . '/../..' . '/src/forTestingAbstractClassesAndTraits/PersonAbstract.php',
+        'src\\task2\\QuoteMaker' => __DIR__ . '/../..' . '/src/task2/QuoteMaker.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

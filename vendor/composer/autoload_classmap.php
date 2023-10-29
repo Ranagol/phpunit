@@ -10,6 +10,7 @@ return array(
     'Calculator' => $baseDir . '/src/Calculator.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'CustomAssertionTrait' => $baseDir . '/tests/traits/CustomAssertionTrait.php',
+    'CustomSearchEngine' => $baseDir . '/src/CustomSearchEngine.php',
     'Database' => $baseDir . '/src/User.php',
     'DatabaseTrait' => $baseDir . '/tests/traits/DatabaseTrait.php',
     'Logger' => $baseDir . '/src/Logger.php',
@@ -595,6 +596,7 @@ return array(
     'SessionInterface' => $baseDir . '/src/SessionInterface.php',
     'ShopingCart' => $baseDir . '/src/ShopingCart.php',
     'ShoppingCartFixtureTrait' => $baseDir . '/tests/traits/ShoppingCartFixtureTrait.php',
+    'Src\\Task2\\QuoteStorage' => $baseDir . '/src/task2/QuoteStorage.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
     'TheSeer\\Tokenizer\\Exception' => $vendorDir . '/theseer/tokenizer/src/Exception.php',
     'TheSeer\\Tokenizer\\NamespaceUri' => $vendorDir . '/theseer/tokenizer/src/NamespaceUri.php',
@@ -612,4 +614,5 @@ return array(
     'forTestingAbstractClassesAndTraits\\Employee' => $baseDir . '/src/forTestingAbstractClassesAndTraits/Employee.php',
     'forTestingAbstractClassesAndTraits\\MyTrait' => $baseDir . '/src/forTestingAbstractClassesAndTraits/MyTrait.php',
     'forTestingAbstractClassesAndTraits\\PersonAbstract' => $baseDir . '/src/forTestingAbstractClassesAndTraits/PersonAbstract.php',
+    'src\\task2\\QuoteMaker' => $baseDir . '/src/task2/QuoteMaker.php',
 );
